@@ -1,0 +1,36 @@
+{
+    "short_name": "Academia-Supapo",
+    "name": "Academia-Supapo",
+    "icons": [
+      {
+        "src": "/assets/Icon-512.svg",
+        "type": "image/svg+xml",
+        "sizes": "512x512"
+      },
+      {
+        "src": "/assets/Icon-192.svg",
+        "type": "image/svg+xml",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/assets/Icon-512.svg",
+        "type": "image/svg+xml",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#082032",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#FF4C29",
+    "shortcuts": [
+      {
+        "name": "Do you want to install the app?",
+        "short_name": "Today",
+        "description": "View exercises today",
+        "url": "/",
+        "icons": [{  "src": "/assets/Icon-192.svg", "sizes": "192x192" }]
+      }
+    ],
+    "description": "Gym practice private app"
+  }

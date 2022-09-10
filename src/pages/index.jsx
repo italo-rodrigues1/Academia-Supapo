@@ -15,3 +15,11 @@ export default function Start(){
         </div>
     )
 }
+
+export async function getStaticProps(){
+    return {
+        props: {
+            name: 'Start'
+        }
+    }
+}

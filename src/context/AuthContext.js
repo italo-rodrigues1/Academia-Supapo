@@ -1,5 +1,6 @@
 import { createContext, useState } from 'react';
 import { useRouter } from 'next/router';
+import { api } from '../services/api';
 
 export const AuthContext = createContext();
 
@@ -10,7 +11,7 @@ export function AuthProvider({children}){
 
     const signIn = async(email,password) => {
         try{
-            const res = await api.post('/signin',{email,password});
+            const res = await api.post('/user',{email,password});
             localStorage.setItem('token',res.data.token);
             setUser(res.data);
             setAuth(true);
